@@ -1,0 +1,15 @@
+<div class="login">
+    <h4 style="background-color: lightblue;color: white">LOGIN</h4>
+  <div class="">
+    <label class="form-label">Username:</label>
+    <input [(ngModel)]="user.username" class="form-input" type="text">
+    </div>
+    <div class="">
+      <label class="form-label">Password:</label>
+      <input [(ngModel)]="user.password" class="form-input" type="text">
+      </div>
+      <div class="form-button">
+        <button (click)="login()" class="btn btn-primary ">Sign in</button>
+  
+      </div>
+  </div>
